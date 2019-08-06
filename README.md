@@ -2,7 +2,7 @@
 
 **infinite-scroller-comp** is a Vue.js (>=2.5) web component that provides a content area and an associated vertical scroll bar.  The developer can specify an array of content and receive an event notice when the vertical scroll moves to the bottom of the array content.  Responding to the event by pushing an additional item to the array causes reactivity on the display and a repetitive cycle of scrolling, pushing, and display update. 
 
-**infinite-scroller-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  The dependency can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file.  Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 9 KiB along with calling a CDN for incorporating the Vue framework.
+ **infinite-scroller-comp** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **infinite-scroller-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **infinite-scroller-comp** along with its [vue.js](https://vuejs.org/ "Vue.js") dependency for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -38,7 +38,7 @@ The demonstration shows how the event can be incorporated.
 
 One demonstration of **infinite-scroller-comp**  is provided in the folder named `dist`.   The demo (templated in the `App.vue` file) can viewed by hosting the `index.html` file.
 
-As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **infinite-scroller-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **infinite-scroller-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 Here is some example code for using **infinite-scroller-comp** taken from the`App.vue` file:
 
