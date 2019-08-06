@@ -1,0 +1,16 @@
+{
+  "name": "infinitescrollercomp",
+  "version": "1.0.0",
+  "description": "A web component providing infinite scrolling of large array of data",
+  "main": "InfiniteScrollerComp.vue",
+  "repository": "git+https://github.com/deandevl/InfiniteScrollerComp.git",
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "keywords": [
+    "Vue.js",
+    "InfiniteScrollerComp"
+  ],
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}
